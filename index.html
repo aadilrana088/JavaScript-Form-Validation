@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conntect 247</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+  <script src="assets/bootstrap/jquery.min.js"></script>
+  <script src="assets/bootstrap/popper.min.js"></script>
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+  <section class="main-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Account <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Doc Share</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Pay Now</a>
+          </li>
+        </ul>
+        <ul class="ml-auto nav nav-right-cont">
+          <li class="nav-item">
+            <a class="nav-link" href="tel:9958358474"><i class="fas fa-phone" style="transform: rotate(90deg)"></i> 9958358474</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:technical.team.support@purvana.com"><i class="fas fa-envelope"></i> technical.team.support@purvana.com</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link user-info" href="#"><i class="far fa-user"></i> <span class="notification-value">132</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section class="form-div">
+    <div class="container">
+      <h1 class="text-center my-5">Make Payements</h1>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="main-form">
+            <form>
+              <div class="form-row payment-mode">
+                <div class="form-group col-md-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Credit/Debit Card
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group col-md-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" value="option2">
+                    <label class="form-check-label" for="gridRadios1">
+                      ACH
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group col-md-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" value="option25">
+                    <label class="form-check-label" for="gridRadios1">
+                      Check
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">Total Payable Amount</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Card Number</label>
+                  <input type="text" class="form-control" id="cardNumber">
+                  <small id="cardNumberError" style="color: red;" class="form-text
+                  text-danger invalid-feedback">
+                  Enter Valid Card Number
+                </small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Name of Card</label>
+                  <input type="text" class="form-control" id="cardname">
+                  <small id="cardnamecheck" style="color: red;" class="form-text
+                  text-danger invalid-feedback">
+                  Enter valid Card Name
+                </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label for="inputEmail4">Expiry Month</label>
+                  <input type="number" class="form-control">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputPassword4">Expiry Year</label>
+                  <input type="number" class="form-control">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputPassword4">CVV</label>
+                  <input type="password" id="password" class="form-control">
+                  <small id="passcheck" style="color: red;" class="form-text
+                  text-danger invalid-feedback">
+                  Enter CVV
+                </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-5">
+                  <label for ="user">
+                    First Name 
+                  </label>
+                  <input type="text"
+                  name="username" id="usernames"
+                  class="form-control">
+                  <small id="usercheck" style="color: red;" class="form-text
+                  text-danger invalid-feedback">
+                  Username Missing
+                </small>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="mi">M.I.</label>
+                  <input type="text"
+                  name="mi" 
+                  class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="last-name">Last Business Name</label>
+                  <input type="text"
+                  name="Last Business Name" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Address 1</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Phone</label>
+                  <input type="text" class="form-control" id="phone">
+                  <small id="phoneError" style="color: red;" class="form-text
+                  text-danger invalid-feedback">
+                  Enter Valid Mobile Number
+                </small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <label for="user">
+                    Email: 
+                  </label>
+                  <input type="email" name="email"
+                  id="email" required 
+                  class="form-control">
+                  <small id="emailvalid" class="form-text
+                  text-muted invalid-feedback">
+                  Your email must be a valid email
+                </small>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <span class="button-switch">
+                  <input type="checkbox" id="switch-blue" class="switch" checked />
+                  <label for="switch-blue" class="lbl-off"></label>
+                  <label for="switch-blue" class="lbl-on"></label>
+                </span>
+                <label class="form-check-label font-weight-bold" for="gridCheck">
+                  Billing Information for this Account is same as above.
+                </label>
+              </div>
+            </div>
+            
+            <!-- <input type="submit" id="submitbtn" 
+            value="Secure Payment" class="btn btn-primary payment-btn">Secure Payment <span class="right-btn-arrow"><i class="fas fa-arrow-right"></i></span></input>    -->
+
+            <button type="submit" id="submitbtn" class="btn btn-primary payment-btn ">Secure Payment <span class="right-btn-arrow"><i class="fas fa-arrow-right"></i></span></button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="billing-enquries">
+          <div class="enquiry-btn">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary">
+                Click here for <span>Billing Enquries</span>
+              </button>
+              <button type="button" class="btn for-focus">Do not hesitate to <a href="#!">Request a Call<br>Back if you have any any Questions</a></button>
+            </div>
+          </div>
+          <div class="enquiry-img">
+            <img src="assets/img/billing-enquiry.png" alt="Billing Enquries" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mobile-apps">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="mobile-div">
+          <h2>Mobile Apps are</h2>
+          <ul class="nav">
+            <li>
+              <div class="mobile-list-cont">Available on <span>Apple Store</span></div>
+              <div class="mobile-icon"><i class="fab fa-apple"></i></div>
+            </li>
+            <li>
+              <div class="mobile-list-cont">Available on <span>Google Play</span></div>
+              <div class="mobile-icon"><i class="fab fa-google-play"></i></div>
+            </li>
+          </ul>
+          <p>(above links will open in new window)</p>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <img src="assets/img/mobile-desktop.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="container">
+    <ul class="nav">
+      <li>This is an attempt to collect a debt and any information obtained will be used for that purpose only.</li>
+      <li>
+        <div class="privacy-div">
+          <div class="footer-img"><img src="assets/img/privacy.png"></div>
+          <div class="privacy-content">
+            <p><a href="#!">Privacy Statement</a> | <a href="#!">Sitemap</a></p>
+            <p>Powered by IConnect247&reg;</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script> -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>

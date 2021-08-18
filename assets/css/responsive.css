@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+.main-top .navbar-nav{margin-left:30px}
+.main-top .navbar-light .navbar-nav .nav-link{margin:0 10px}
+}
+@media (max-width: 767.98px) {
+.mobile-apps .mobile-div{position:relative}
+.main-form{margin-bottom:75px}
+.mobile-apps img{margin-top:50px}
+.navbar-collapse{margin-left:15px}
+.footer ul{justify-content:center;text-align:center}
+.footer ul li:first-child{margin-bottom:10px}
+}
+@media (max-width: 400px) {
+.form-check-label{font-size:11px;font-weight:400!important}
+}
+@media (min-width: 992px) and (max-width: 1101px) {
+.main-top .navbar-light .navbar-nav .nav-link{margin:0}
+.main-top .navbar-light .nav-link{padding:8px}
+}
+@media (max-width: 992px) and (min-width: 768px) {
+.footer ul li:first-child{flex:1}
+}
+@media (max-width: 991px) {
+.nav-right-cont .nav-item{display:none}
+.nav-right-cont li:last-child{display:block}
+.main-top .navbar-nav{margin-left:0}
+.form-check-label{margin-left:15px}
+.form-div .payment-btn{margin-top:15px}
+.mobile-apps .mobile-div ul li:first-child{margin-bottom:20px}
+}

@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap";
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Ubuntu',sans-serif}
+.bg-blue{background:#ddedfe}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-track{background:#f1f1f1}
+::-webkit-scrollbar-thumb{background:#2474bb}
+::-webkit-scrollbar-thumb:hover{background:#1976D2}
+.main-top .navbar-light .nav-right-cont .nav-item:last-child{width:55px;height:24px;border:1px solid #2474bb;background:#2474bb;border-radius:22px;font-size:14px;display:flex;justify-content:flex-start;align-items:center;margin-top:6px;padding-left:7px}
+.main-top .navbar-light .nav-right-cont .nav-item:last-child .nav-link.user-info{padding:0;position:relative}
+.main-top .navbar-light .nav-right-cont .nav-item:last-child a{color:#fff}
+.main-top .navbar-light .nav-right-cont .nav-item:last-child span.notification-value{position:absolute;background:#f07575;border-radius:50%;right:-36px;top:-2px;padding:4px;font-size:11px}
+.billing-enquries{text-align:center}
+li.nav-item a.nav-link{font-size:14px;color:#8b8e90}
+.main-top .navbar-light .navbar-nav .nav-link{color:#2474bb;text-decoration:underline}
+.main-top .navbar-light .navbar-nav .nav-link:hover{color:#071e31}
+.main-top .navbar-light .nav-right-cont .nav-link:hover{color:#313538}
+.main-form .payment-mode .form-group{border:2px solid #eee;padding:10px 40px 10px 10px;border-radius:4px;margin-right:25px}
+.main-form .form-control:focus{box-shadow: 0 0 0 0.2rem #fff;}
+.main-form .form-control{border:0;border-bottom:2px solid #c4c4c4;border-radius:0}
+.main-form .form-control::placeholder{color:transparent}
+.main-form .form-row{margin-bottom:5px}
+.enquiry-btn .btn-group button.btn{font-size:13px!important;padding:8px 15px;text-align:left;border:.7px solid #eee}
+.enquiry-btn .btn-group button.btn span{display:block;font-size:16px;font-weight:600}
+.enquiry-btn .btn-primary.focus, .enquiry-btn .btn.for-focus, .btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 0%) !important;
+}
+.btn-primary{background:#2474bb}
+.form-div{margin:30px 0 50px}
+.right-btn-arrow{border:1px solid #fff;background:#fff;color:#2474bb;border-radius:50%;padding:3px 5px;font-size:17px;margin-left:15px}
+.mobile-apps{background:#f6f6f6;padding:50px 0;position:relative}
+.mobile-apps .mobile-div{background:#f4f4f44f;padding:20px;border-radius:26px;-webkit-box-shadow:3px 2px 19px 12px #e8e8e8a1;-moz-box-shadow:3px 2px 19px 12px #e8e8e8a1;box-shadow: 3px 2px 19px 12px #e8e8e8a1;width:100%;position:absolute;top:50%;transform:translateY(-50%);}
+.mobile-apps .mobile-div ul li:first-child{margin-right:20px}
+.mobile-apps .mobile-div ul li{font-size:14px;display:flex;align-items:center;border:1px solid #eee;border-radius:26px;padding:2px 15px;background:#fff;line-height:20px}
+.mobile-apps .mobile-div ul li span{display:block;font-size:16px;font-weight:500;margin-right:15px}
+.mobile-apps .mobile-div ul li .mobile-icon{border-radius:50%;border:1px solid #eee}
+.mobile-apps .mobile-div ul li .mobile-icon i.fab{font-size:23px;padding:5px;line-height:18px}
+.mobile-apps .mobile-div ul li .mobile-icon .fa-google-play{font-size:18px!important}
+.mobile-apps .mobile-div h2{font-size:22px;margin-bottom:10px}
+.mobile-apps .mobile-div p{font-size:14px;margin-top:10px;margin-bottom:0}
+.footer{position:relative;padding:15px 0;font-size:12px}
+.footer ul{align-items:center}
+.footer ul li:first-child{flex-grow:3}
+.footer .privacy-div{display:flex;align-items:center}
+.footer .privacy-div .footer-img{margin-right:20px}
+.footer .privacy-div .privacy-content p:first-child{margin-bottom:6px}
+.footer .privacy-div .privacy-content p{margin-bottom:0}
+.button-switch{font-size:14px;height:1.875em;margin-bottom:.625em;position:relative;width:4.5em;margin-right:10px}
+.button-switch .lbl-off,.button-switch .lbl-on{cursor:pointer;display:block;font-size:.9em;font-weight:700;line-height:1em;position:absolute;top:.5em;transition:opacity .25s ease-out .1s;text-transform:uppercase}
+.button-switch .lbl-off{right:.4375em}
+.button-switch .lbl-on{color:#fefefe;opacity:0;left:.4375em}
+.button-switch .switch{-webkit-appearance:none;-moz-appearance:none;appearance:none;height:0;font-size:1em;left:0;line-height:0;outline:none;position:absolute;top:0;width:0}
+.button-switch .switch:before,.button-switch .switch:after{content:"";font-size:1em;position:absolute}
+.button-switch .switch:before{border-radius:1.25em;background:#bdc3c7;height:1.875em;left:-.25em;top:-.1875em;transition:background-color .25s ease-out .1s;width:4.5em;cursor:pointer}
+.form-check{display:flex;justify-content:flex-start}
+.button-switch .switch:after{box-shadow:0 .0625em .375em 0 #666;border-radius:11px;background:#fefefe;height:1.5em;transform:translate(0,0);transition:transform .25s ease-out .1s;width:30px;cursor:pointer}
+.button-switch .switch:checked:after{transform:translate(1.9em,0)}
+.button-switch .switch:checked ~ .lbl-off{opacity:0}
+.button-switch .switch:checked ~ .lbl-on{opacity:1}
+.button-switch .switch#switch-orange:checked:before{background:#e67e22}
+.button-switch .switch#switch-blue:checked:before{background:#2474bb}
+.form-div .payment-btn{border-radius:25px;margin-top:30px}
+.form-div .btn-primary.payment-btn{transition:.4s all ease-in-out}
+.form-div .btn-primary.payment-btn:hover{-webkit-transform:translateY(-2px);-o-transform:translateY(-2px);transform:translateY(-2px);-webkit-box-shadow:0 4px 5px 0 #c7c7c7;box-shadow:00 4px 5px 0 #c7c7c7;}
+.main-form .form-control:focus{border-bottom:2px solid #2474bb}
+.form-div h1{font-size:30px}
